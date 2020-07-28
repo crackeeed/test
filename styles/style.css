@@ -1,0 +1,370 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+li{
+	list-style-type: none;
+}
+.wrapper{
+	max-width: 1140px;
+	margin: 0px auto;
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-areas: "header"
+	"main"
+	"footer";
+}
+.header {
+	display: flex;
+	grid-area: header;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.logo {
+}
+.logo__img {
+}
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+}
+.header-nav__li{
+	margin-right: 40px;
+}
+.header-nav__link {
+}
+.header-authorization__sign-in-button{
+	margin-right: 30px;
+}
+.header-authorization__sign-up-button {
+}
+.header-authorization {
+	display: flex;
+}
+.header-authorization__sing-up-btn{
+	padding: 13px 45px;
+}
+.button {
+	text-decoration: none;
+	background-color: white;
+	border-radius: 50px;
+	border: 1px solid #F53855;
+}
+.main {
+	grid-area: main;
+	display: grid;
+	grid-template-rows: repeat(6, auto);
+}
+.section {
+	display: flex;
+}
+.top-section {
+	padding-top: 99px;
+	flex-direction: column;
+}
+.top-section__top-block{
+	padding-bottom: 103px;
+	display: flex;
+	justify-content: space-between;
+	min-height: 382.44px;
+}
+.top-section__main-text {
+}
+.main-title {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 70px;
+	margin: 0px 0px 20px 0px;
+}
+.top-section__paragraph{
+	margin-bottom: 68px;
+}
+.paragraph {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #4F5665;
+}
+.top-section__button {
+	padding: 18px 78px;
+	background: #F53838;
+	border-radius: 10px;
+	color: white;
+}
+.top-section__image {
+}
+.top-section__img {
+	width: 100%
+	max-width: 611.24px;
+}
+
+.top-section__info {
+	display: flex;
+	justify-content: space-between;
+	padding: 72px 91px;
+	margin: 0px;
+
+}
+.top-section__li {
+	display: flex;
+}
+.top-section__text{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.users {}
+.top-section__icon {
+	margin-right: 37px;
+}
+.top-section__title {}
+.top-section__description {}
+.locations {}
+.servers {}
+.section-features {
+	display: flex;
+	margin-bottom: 210px;
+}
+.section-features__image {
+	margin-right: 169px;
+}
+.section-features__img{
+	max-width: 508.12px;
+	width: 100%;
+}
+.section-features__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.section-features__title{
+	margin-bottom: 20px;
+}
+.title {
+	margin: 0px;
+}
+.section-features__paragraph{
+	margin-bottom: 20px;
+
+}
+.section-features__paragraph{
+
+}
+.section-features__list{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.section-features__item{
+	display: flex;
+	margin-bottom: 21px;
+}
+.section-features__icon{
+	margin-right: 10px;
+}
+.section-plan {
+	flex-direction: column;
+}
+.section-plan-text{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 60px;
+}
+
+.price-block{
+	display: flex;
+	justify-content: space-between;
+}
+.price-box{
+	width: 330px;
+	min-height: 760px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border: 5px solid #000;
+}
+.price-box__image{
+	padding: 80px 0px 30px 0px;
+}
+.price-box__title{
+	margin-bottom: 30px;
+}
+.price-box__list{
+	margin: 0px 0px 90px 0px;
+	padding: 0px;
+}
+.price-box__item::before{
+	content: "  ";
+	background-image: url("../images/awdsaor.svg");
+	width: 14px;
+	height: 9px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+}
+.price-box__item {
+	margin-bottom: 10px;
+}
+.price-box__list :last-child{
+	margin-bottom: 0px;
+}
+.price-box-bottom{
+
+}
+.price-box__price {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.price-box__button{
+	display: flex;
+	margin-bottom: 63px;
+}
+.price-box__btn {
+	padding: 13px 63px;
+}
+.section-network {
+	padding-top: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section-network__title{
+	margin-bottom: 20px;
+}
+.section-network__paragraph{
+	margin-bottom: 155px;
+}
+.section-network__img {
+	max-width: 1060px;
+	with: 100%;
+}
+.section-review {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
+}
+.section-review-box {
+	display: flex;
+	flex-direction: space-between;
+	
+}
+.section-review-box__block {}
+.review-block {
+	border: 5px solid #000;
+	margin-right: 50px;
+	width: 346.6px;
+}
+.review-block:last-child{
+	margin-right: 0px;
+}
+.review-block-cont{
+	padding: 30px;
+}
+.section-review__title{
+	margin-bottom: 20px;
+}
+.section-review__paragraph{
+	margin-bottom: 60px;
+}
+.review-block__top-info {}
+.review-block__photo {}
+.review-block-name {}
+.review-block__name {}
+.review-block__location {}
+.review-block__mark {}
+.review-block__text {}
+.section-review-buttons {
+	margin-bottom: 65px;
+}
+.section-review__button {}
+.bottom-section {
+	border: 5px solid #000;
+}
+.bottom-section-cont{
+	padding: 86px 70px;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+.bottom-section-text {}
+.bottom-section-button {}
+.bottom-section__button {
+	padding: 18px 65px;
+	background: #F53838;
+	border-radius: 10px;
+	color: white;
+}
+.footer {
+	grid-area: footer;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+.footer-links{
+	display: flex;
+	flex-direction: space-between;
+}
+.footer-block{
+	margin-right: 126px;
+}
+.footer-block:last-child{
+	margin-right: 0px;
+}
+.footer-block__title{
+	margin-bottom: 20px;
+}
+.footer-block__item{
+	margin-bottom: 10px;
+}
+.footer-block__item:last-child{
+	margin-bottom: 0px;
+}
+.footer__logo{
+	margin-bottom: 20px;
+}
+.footer-info {}
+.footer-info__social {
+	margin-bottom: 30px;
+	display: flex;
+}
+.footer-info-social__image{
+	margin-right: 20px;
+}
+.footer-discription{
+	max-width: 340px;
+}
+.footer-discription__paragraph{
+	margin-bottom: 30px;
+}
+.footer-info-social__img{
+	background-color: red;
+	border-radius: 100%;
+}
+.footer-discription__copyright{
+
+}
